@@ -1,0 +1,16 @@
+{
+    "name": "christoffer/graphqlite-no-framework",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "require": {
+        "ext-json": "*",
+        "thecodingmachine/graphqlite": "^6.1",
+        "symfony/dependency-injection": "^6.1",
+        "symfony/cache": "^6.1",
+        "twig/twig": "^3.0"
+    }
+}
